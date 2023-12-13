@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgImage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.change{
+    border: 5px solid red;
+}
