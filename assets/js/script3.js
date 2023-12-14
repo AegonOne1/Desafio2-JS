@@ -8,10 +8,10 @@ function verifyPass(){
 
     const paragraph = document.getElementById('paragraph')
 
-    if (key == 911){
+    if (key === "911"){
         paragraph.textContent = "Contraseña 1 Correcto"
         console.log("password 1 correct")
-    } else if (key == 714){
+    } else if (key === "714"){
         paragraph.textContent = "Contraseña 2 Correcto"
         console.log("password 2 correct")
     } else {
